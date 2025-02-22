@@ -9,8 +9,22 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        fontMain: "#273043",
+        fontGray: "#27304380",
+
+        white: "#FFFFFF",
+        gray: "#F2F2F2",
+      },
+      fontFamily: {
+        Mono: "Montserrat",
+      },
+      screens: {
+        bigPhone: "425px",
+        tablet: "768px",
+        laptop: "1024px",
+        hd: "1280px",
+        bigLaptop: "1440px",
+        fullHd: "1920px",
       },
     },
   },
