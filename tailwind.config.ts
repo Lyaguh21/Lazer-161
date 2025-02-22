@@ -16,7 +16,7 @@ export default {
         gray: "#F2F2F2",
       },
       fontFamily: {
-        Mono: "Montserrat",
+        montserrat: "Montserrat",
       },
       screens: {
         bigPhone: "425px",
