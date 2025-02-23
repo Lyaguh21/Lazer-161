@@ -1,6 +1,6 @@
 export default function Header() {
   return (
-    <header className="bg-white z-20 sticky top-0 shadow-[0px_4px_4px_0px_rgba(0,_0,_0,_0.25)] flex justify-center px-[20px] bigPhone:px-[60px] hd:px-0 h-[100px] w-full font-montserrat">
+    <header className="bg-white z-20 sticky top-0 shadow-[0px_4px_4px_0px_rgba(0,_0,_0,_0.25)] flex justify-center px-[20px] bigPhone:px-[60px] hd:px-0 h-[80px] tablet:h-[100px] w-full font-montserrat">
       <div className="flex justify-between w-[1200px] items-center">
         <picture>
           <img src="\icons\Logo.svg" alt="" />
