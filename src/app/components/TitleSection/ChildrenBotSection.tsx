@@ -10,7 +10,7 @@ export default function ChildrenBotSection({
       <h2 className="text-fontMain text-[22px] leading-[37px] font-bold mb-1">
         {title}
       </h2>
-      <h4 className="text-fontMain leading-[25px] ">{subtitle}</h4>
+      <h4 className="text-fontMain leading-[25px]">{subtitle}</h4>
     </div>
   );
 }
