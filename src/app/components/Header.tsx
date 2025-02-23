@@ -5,7 +5,7 @@ export default function Header() {
         <picture>
           <img src="\icons\Logo.svg" alt="" />
         </picture>
-        <div className="flex justify-end laptop:justify-between w-[360px] text-fontMain font-semibold leading-[25px] text-base">
+        <div className="flex justify-end laptop:justify-between bigPhone:w-[360px] text-fontMain font-semibold leading-[25px] text-base">
           <h2 className="hidden laptop:block">sales@mrbmetall.ru</h2>
           <h2>+7 980 477 12 50</h2>
         </div>
