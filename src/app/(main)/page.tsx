@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <div className="w-full h-[1000px] bg-red-200">d</div>
+      <div className="w-full h-[1000px] bg-red-200"></div>
       <ContactsSection />
       <Footer />
     </>
