@@ -2,8 +2,8 @@ export default function TopPart() {
   return (
     <div className="w-full flex justify-between gap-2">
       <div className="basis-full laptop:basis-[550px]">
-        <div className="bg-[#1F5BFF] h-[230px] laptop:h-auto flex justify-between flex-col py-[15px] px-[10px] laptop:p-0 laptop:bg-white">
-          <h4 className=" laptop:mt-[20px] text-fontGray text-[14px] font-semibold leading-[22px]">
+        <div className="bg-gradient-to-r to-blue-300 from-blue-800 h-[230px] laptop:h-auto flex justify-between flex-col py-[15px] px-[10px] laptop:p-0 laptop:bg-none">
+          <h4 className=" laptop:mt-[20px] text-white laptop:text-fontGray text-[14px] font-semibold leading-[22px]">
             Производим металлоконструкции с 2003 года
           </h4>
           <h1 className="text-white laptop:text-fontMain text-[22px] laptop:text-[50px] hd:text-[56px] leading-9 laptop:leading-[67px] font-semibold mt-[37px] max-w-[250px] laptop:max-w-[550px]">
