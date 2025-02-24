@@ -1,4 +1,5 @@
 import ContactsSection from "../components/ContactsSection/ContactsSection";
+import EquipmentSection from "../components/EquipmentSection/EquipmentSection";
 import ExampleSection from "../components/ExampleWork/ExampleSection";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
@@ -9,7 +10,7 @@ export default function Home() {
     <>
       <Header />
       <TitleSection />
-      <div className="w-full h-[1000px] bg-red-200"></div>
+      <EquipmentSection />
       <ExampleSection />
       <ContactsSection />
       <Footer />

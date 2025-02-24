@@ -10,7 +10,7 @@ function Slider() {
   return (
     <>
       <button onClick={() => setToggler(!toggler)} className="">
-        <div className="flex flex-wrap laptop:flex-nowrap w-full justify-center laptop:justify-between gap-[20px]">
+        <div className="flex flex-wrap hd:flex-nowrap  w-full justify-center laptop:justify-between gap-[20px]">
           <ChildSlider photo="\img\ExampleSection\firstExample.svg" />
           <ChildSlider photo="\img\ExampleSection\secondExample.svg" />
           <ChildSlider photo="\img\ExampleSection\thirdExample.svg" />
