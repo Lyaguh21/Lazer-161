@@ -5,6 +5,7 @@ import ExampleSection from "../components/ExampleWork/ExampleSection";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import ServicesSection from "../components/ServicesSection/ServicesSection";
+import TableSection from "../components/TableSection/TableSection";
 import TitleSection from "../components/TitleSection/TitleSection";
 
 export default function Home() {
@@ -13,7 +14,7 @@ export default function Home() {
       <Header />
       <TitleSection />
       <ServicesSection />
-      <div className="h-[400px]"></div>
+      <TableSection />
       <EquipmentSection />
       <ExampleSection />
       <ContactsSection />

@@ -14,6 +14,7 @@ export default {
 
         white: "#FFFFFF",
         gray: "#F2F2F2",
+        bgTable: "#D9D9D9",
       },
       fontFamily: {
         montserrat: "Montserrat",
