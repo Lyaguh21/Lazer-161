@@ -1,4 +1,5 @@
 "use client";
+
 import ContactsSection from "../components/ContactsSection/ContactsSection";
 import EquipmentSection from "../components/EquipmentSection/EquipmentSection";
 import ExampleSection from "../components/ExampleWork/ExampleSection";
