@@ -1,11 +1,8 @@
-import { Card, CardContent } from "@/components/ui/card";
 import {
   Carousel,
   CarouselContent,
-  CarouselItem,
   CarouselNext,
   CarouselPrevious,
-  type CarouselApi,
 } from "@/components/ui/carousel";
 import CarouselChild from "./CarouselChild";
 import Autoplay from "embla-carousel-autoplay";
@@ -25,7 +22,7 @@ export default function ExampleSection() {
             className="w-[250px] bigPhone:w-[300px] sm:w-full "
             plugins={[
               Autoplay({
-                delay: 5000,
+                delay: 7000,
               }),
             ]}
           >

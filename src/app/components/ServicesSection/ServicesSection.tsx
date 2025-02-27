@@ -15,7 +15,7 @@ export default function ServicesSection() {
               <img
                 src="\img\ServicesSection\Lazer.svg"
                 alt=""
-                className="basis-1/3"
+                className="basis-1/3 shadow-xl hover:z-10 hover:scale-105 transition-transform duration-500 "
               />
             </DialogTrigger>
             <LazerModal />
@@ -26,7 +26,7 @@ export default function ServicesSection() {
               <img
                 src="\img\ServicesSection\Gibka.svg"
                 alt=""
-                className="basis-1/3"
+                className="basis-1/3 shadow-xl hover:z-10 hover:scale-105 transition-transform duration-500 "
               />
             </DialogTrigger>
             <GibkaModal />
@@ -37,7 +37,7 @@ export default function ServicesSection() {
               <img
                 src="\img\ServicesSection\Svarka.svg"
                 alt=""
-                className="basis-1/3"
+                className="basis-1/3 shadow-xl hover:z-10 hover:scale-105 transition-transform duration-500 "
               />
             </DialogTrigger>
             <SvarkaModal />
