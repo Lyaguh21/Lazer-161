@@ -16,12 +16,8 @@ export default function TopPart() {
           качество порошковой покраски. Доставка на ваш склад по всей России.
         </h3>
       </div>
-      <div className="hidden laptop:block">
-        <img
-          src="\img\FirstSection\mainPhoto.svg"
-          alt=""
-          className="w-[425px] h-[450px]"
-        />
+      <div className="hidden laptop:block bg-[#1F5BFF] ">
+        <img src="\img\FirstSection\mainPhoto.svg" alt="" className="" />
       </div>
     </div>
   );

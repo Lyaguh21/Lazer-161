@@ -12,22 +12,6 @@ import Autoplay from "embla-carousel-autoplay";
 
 import * as React from "react";
 export default function ExampleSection() {
-  const [api, setApi] = React.useState<CarouselApi>();
-  const [current, setCurrent] = React.useState(0);
-  const [count, setCount] = React.useState(0);
-
-  React.useEffect(() => {
-    if (!api) {
-      return;
-    }
-
-    setCount(api.scrollSnapList().length);
-    setCurrent(api.selectedScrollSnap() + 1);
-
-    api.on("select", () => {
-      setCurrent(api.selectedScrollSnap() + 1);
-    });
-  }, [api]);
   return (
     <section className="flex justify-center mb-[130px] px-[20px] bigPhone:px-[42px] hd:px-0 font-montserrat">
       <div className="w-[1000px] flex flex-col justify-between">
@@ -38,7 +22,6 @@ export default function ExampleSection() {
         </div>
         <div className="flex  justify-center">
           <Carousel
-            setApi={setApi}
             className="w-[250px] bigPhone:w-[300px] sm:w-full "
             plugins={[
               Autoplay({
@@ -58,9 +41,6 @@ export default function ExampleSection() {
             <CarouselPrevious className="ml-2" />
             <CarouselNext className="mr-2" />
           </Carousel>
-        </div>
-        <div className="py-2 text-center text-sm text-muted-foreground">
-          {current} / {count}
         </div>
       </div>
     </section>
