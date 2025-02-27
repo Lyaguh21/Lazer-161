@@ -1,7 +1,7 @@
 import { Dialog, DialogTrigger } from "@/components/ui/dialog";
-import LazerModal from "./LazerModal";
-import GibkaModal from "./GibkaModal";
-import SvarkaModal from "./SvarkaModal";
+import LazerModal from "./Modal/LazerModal";
+import GibkaModal from "./Modal/GibkaModal";
+import SvarkaModal from "./Modal/SvarkaModal";
 export default function ServicesSection() {
   return (
     <section className="flex justify-center w-full font-montserrat  bg-gray px-[20px] bigPhone:px-[42px] hd:px-0">
