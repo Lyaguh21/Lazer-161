@@ -15,8 +15,10 @@ export default {
         white: "#FFFFFF",
         gray: "#F2F2F2",
         bgTable: "#D9D9D9",
+        hoverMessenger: "#3a3a3b",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
+
         card: {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",

@@ -15,7 +15,7 @@ export default function GibkaModal() {
       <DialogTitle className="flex flex-col gap-4">
         <div className="flex justify-between gap-4">
           <div className="h-auto sm:h-[auto] w-full sm:w-[320px] flex-grow tabletPlus:w-[381px] bg-gray p-3">
-            <h2>
+            <h2 className="font-medium">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Voluptatem, beatae! Magni fugit dolores iure ex porro eum id!
               Temporibus voluptates illum magni error doloribus beatae facilis

@@ -8,6 +8,7 @@ import Header from "../components/Header";
 import ServicesSection from "../components/ServicesSection/ServicesSection";
 import TableSection from "../components/TableSection/TableSection";
 import TitleSection from "../components/TitleSection/TitleSection";
+import ButtonMessenger from "../components/ui/ButtonMessenger";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <ExampleSection />
       <ContactsSection />
       <Footer />
+      <ButtonMessenger />
     </>
   );
 }

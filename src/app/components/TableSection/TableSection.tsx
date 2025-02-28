@@ -8,7 +8,7 @@ export default function TableSection() {
           Расценки
         </h2>
         <div className="grid grid-cols-[repeat(3,1fr)] grid-rows-[repeat(12,1fr)] gap-y-0 gap-x-0  ">
-          <div className="sm:hidden">
+          <div className="sm:hidden ">
             <GridChild text="Толщина" odd={true} />
           </div>
           <div className="hidden sm:block">
