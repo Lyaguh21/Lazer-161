@@ -25,7 +25,7 @@ export default function ButtonMessenger() {
       // затем переключаем animateIn в true — это запустит переход opacity от 0 к 1
       setTimeout(() => {
         setAnimateIn(true);
-      }, 10);
+      }, 30);
     } else {
       // При скрытии сразу запускаем анимацию затухания, устанавливая animateIn в false.
       // В результате opacity переходит к 0
