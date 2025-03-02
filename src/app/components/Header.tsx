@@ -17,9 +17,9 @@ export default function Header() {
             className="cursor-pointer"
           />
         </picture>
-        <div className="flex justify-end laptop:justify-between bigPhone:w-[360px] text-fontMain font-semibold leading-[25px] text-base">
-          <h2 className="hidden laptop:block">sales@mrbmetall.ru</h2>
-          <h2>+7 980 477 12 50</h2>
+        <div className="flex justify-end laptop:justify-between bigPhone:w-[360px] text-red font-semibold leading-[25px] text-red">
+          <h2 className="hidden laptop:block">lazer161snab@yandex.ru</h2>
+          <h2>+7 951 513 88 58</h2>
         </div>
       </div>
     </header>

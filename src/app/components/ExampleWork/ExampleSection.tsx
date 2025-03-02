@@ -10,10 +10,10 @@ import Autoplay from "embla-carousel-autoplay";
 import * as React from "react";
 export default function ExampleSection() {
   return (
-    <section className="flex justify-center mb-[130px] px-[20px] bigPhone:px-[42px] hd:px-0 font-montserrat">
+    <section className="flex justify-center mb-[130px] px-[20px] bigPhone:px-[30px] hd:px-0 font-montserrat">
       <div className="w-[1000px] flex flex-col justify-between">
         <div className="flex justify-center">
-          <h2 className="text-fontMain font-semibold leading-[44px] text-[36px] mb-[45px] bigPhone:mb-[90px]">
+          <h2 className="text-fontMain font-semibold leading-[0px] text-[36px] mb-[45px] bigPhone:mb-[90px]">
             Примеры выполненных заказов
           </h2>
         </div>
