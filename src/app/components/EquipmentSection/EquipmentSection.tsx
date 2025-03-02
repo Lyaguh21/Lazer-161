@@ -15,7 +15,7 @@ export default function ExampleSection() {
       <div className="w-[1000px] flex flex-col justify-between ">
         <div className="flex justify-center mb-[50px] ">
           <h2 className="text-fontMain font-semibold leading-[44px] text-[36px] ">
-            Примеры выполненных заказов
+            Наше оборудование
           </h2>
         </div>
         <div className="flex justify-center">
@@ -28,10 +28,22 @@ export default function ExampleSection() {
             ]}
           >
             <CarouselContent className="gap-[4px]">
-              <CarouselEquipChild photo="\img\EquipmentSection\ANLAZER.svg" />
-              <CarouselEquipChild photo="\img\EquipmentSection\ASSIMATCH.svg" />
-              <CarouselEquipChild photo="\img\EquipmentSection\KDM.svg" />
-              <CarouselEquipChild photo="\img\EquipmentSection\SENFENG.svg" />
+              <CarouselEquipChild
+                photo="\img\EquipmentSection\ANLAZER.svg"
+                text="Аппарат лазерной сварки"
+              />
+              <CarouselEquipChild
+                photo="\img\EquipmentSection\ASSIMATCH.svg"
+                text="Гибочный гидравлический пресс с ЧПУ"
+              />
+              <CarouselEquipChild
+                photo="\img\EquipmentSection\KDM.svg"
+                text="Аппарат лазерной сварки"
+              />
+              <CarouselEquipChild
+                photo="\img\EquipmentSection\SENFENG.svg"
+                text="Установка лазерной резки металла"
+              />
             </CarouselContent>
             <CarouselPrevious className="ml-2 hidden laptop:flex" />
             <CarouselNext className="mr-4 hidden laptop:flex" />
