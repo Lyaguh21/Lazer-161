@@ -10,7 +10,6 @@ export default {
   theme: {
     extend: {
       colors: {
-        red: "ff0000",
         fontMain: "#273043",
         fontGray: "#27304380",
         white: "#FFFFFF",
