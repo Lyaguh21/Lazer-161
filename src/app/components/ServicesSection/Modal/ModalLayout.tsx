@@ -39,18 +39,20 @@ export default function ModalLayout({
           </div>
         </div>
         <div className="w-full gap-4 inline-flex bg-gray p-3 justify-center  flex-wrap">
-          <img
-            src={photo1}
-            alt=""
-            className="h-[120px] w-[120px] sm:w-[170px] sm:h-[170px]"
-            style={{ display: photo1 == undefined ? "none" : "block" }}
-          />
-          <img
-            src={photo2}
-            alt=""
-            className="h-[120px] w-[120px] sm:w-[170px] sm:h-[170px]"
-            style={{ display: photo2 == undefined ? "none" : "block" }}
-          />
+          <div className="flex gap-4">
+            <img
+              src={photo1}
+              alt=""
+              className="h-[120px] w-[120px] sm:w-[170px] sm:h-[170px]"
+              style={{ display: photo1 == undefined ? "none" : "block" }}
+            />
+            <img
+              src={photo2}
+              alt=""
+              className="h-[120px] w-[120px] sm:w-[170px] sm:h-[170px]"
+              style={{ display: photo2 == undefined ? "none" : "block" }}
+            />
+          </div>
           <div className="flex gap-4">
             <img
               src={photo3}

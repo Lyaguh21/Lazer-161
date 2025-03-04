@@ -20,10 +20,10 @@ export default function ServicesSection() {
               title="Лазерная резка"
               subtitle="Лазерная резка — технология резки и раскроя материалов, использующая лазер высокой мощности и обычно применяемая на промышленных производственных линиях. Сфокусированный лазерный луч, обычно управляемый компьютером, обеспечивает высокую концентрацию энергии и позволяет разрезать практически любые материалы независимо от их теплофизических свойств. В процессе резки, под воздействием лазерного луча материал разрезаемого участка плавится, возгорается, испаряется или выдувается струей газа. Легкодеформируемых и нежестких заготовок и деталей, можно осуществлять с высокой степенью точности."
               mainPhoto="\img\Modal\modalLazer.jpg"
-              photo1="\img\OurEquipment\GigaPress.jpeg"
-              photo2="\img\OurEquipment\Mashine.jpeg"
-              photo3="\img\EquipmentSection\SENFENG.svg"
-              photo4="\img\EquipmentSection\SENFENG.svg"
+              photo1="\img\photo1v1\GigaPress1v1.jpg"
+              photo2="\img\photo1v1\LazerSheet1v1.jpg"
+              photo3="\img\photo1v1\GigaPress1v1.jpg"
+              photo4="\img\photo1v1\LazerSheet1v1.jpg"
             />
           </Dialog>
 
@@ -39,10 +39,10 @@ export default function ServicesSection() {
               title="Гибка металла"
               subtitle="Гибка — это производственный процесс, в результате которого в пластичных материалах, чаще всего в листовом металле, образуется V-образная, U-образная или канальная форма вдоль прямой оси. Обычно используемое оборудование включает гибочные прессы, гибочные прессы-автоматы и другие специализированные гибочные прессы. Типичными изделиями, которые изготавливаются таким образом, являются коробки, такие как электрические корпуса, и прямоугольные воздуховоды."
               mainPhoto="\img\Modal\modalGibka.jpg"
-              photo1="\img\EquipmentSection\ASSIMATCH.svg"
-              photo2="\img\EquipmentSection\ASSIMATCH.svg"
-              photo3="\img\EquipmentSection\ASSIMATCH.svg"
-              photo4="\img\EquipmentSection\ASSIMATCH.svg"
+              photo1="\img\photo1v1\Mashine1v1.jpg"
+              photo2="\img\photo1v1\Presses1v1.jpg"
+              photo3="\img\photo1v1\Mashine1v1.jpg"
+              photo4="\img\photo1v1\Presses1v1.jpg"
             />
           </Dialog>
 
@@ -60,10 +60,10 @@ export default function ServicesSection() {
 
 Лазерная сварка применяется для сварки радиоэлектронике и электронной технике, она позволяет материалы с толщинами от нескольких микрометров до десятков миллиметров. ущность лазерного процесса сварки состоит в следующем: лазерное излучение направляется в фокусирующую систему, где фокусируется в пучок меньшего сечения и попадает на свариваемые детали, где частично отражается, частично проникает внутрь материала, где поглощается, нагревает и расплавляет металл, формируя сварной шов."
               mainPhoto="\img\Modal\modalSvarka.jpg"
-              photo1="\img\EquipmentSection\KDM.svg"
-              photo2="\img\EquipmentSection\ANLAZER.svg"
-              photo3="\img\EquipmentSection\KDM.svg"
-              photo4="\img\EquipmentSection\ANLAZER.svg"
+              photo1="\img\photo1v1\SheetPress1v1.jpg"
+              photo2="\img\photo1v1\Rollers1v1.jpg"
+              photo3="\img\photo1v1\SheetPress1v1.jpg"
+              photo4="\img\photo1v1\Rollers1v1.jpg"
             />
           </Dialog>
         </div>
