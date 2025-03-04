@@ -1,4 +1,5 @@
-import { message } from "../../../../public/icons/massagers/message";
+
+import { whatsapp } from "../../../../public/icons/massagers/whatsapp";
 
 export default function ButtonMessenger() {
   return (
@@ -9,9 +10,9 @@ export default function ButtonMessenger() {
           <a
             href="https://wa.me/whatsappphonenumber"
             target="_blank"
-            className="bg-blue-500 rounded-full size-[60px] z-20 hover:bg-blue-800 pt-[11px] flex align-middle justify-center"
+            className="bg-blue-500 rounded-full size-[60px] z-20 hover:bg-blue-800 pt-[13px] flex align-middle justify-center"
           >
-            {message}
+            {whatsapp}
           </a>
         </div>
       </div>
