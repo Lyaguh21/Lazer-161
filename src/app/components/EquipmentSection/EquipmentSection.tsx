@@ -55,7 +55,7 @@ export default function ExampleSection() {
               />
             </CarouselContent>
             <CarouselPrevious className="ml-2 hidden laptop:flex" />
-            <CarouselNext className="mr-4 hidden laptop:flex" />
+            <CarouselNext className="mr-2 hidden laptop:flex" />
           </Carousel>
         </div>
       </div>
