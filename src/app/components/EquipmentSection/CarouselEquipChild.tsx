@@ -8,7 +8,7 @@ export default function CarouselChild({
   text: string;
 }) {
   return (
-    <CarouselItem className=" tablet:basis-[calc(33.33%-4px)]">
+    <CarouselItem className=" tablet:basis-[calc(33.33%-3px)]">
       <Card>
         <CardContent className="flex h-[310px] flex-col justify-between items-center p-0">
           <img src={photo} alt="" />

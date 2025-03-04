@@ -29,19 +29,28 @@ export default function ExampleSection() {
           >
             <CarouselContent className="gap-[4px]">
               <CarouselEquipChild
-                photo="\img\EquipmentSection\ANLAZER.svg"
+                photo="\img\OurEquipment\GigaPress.jpeg"
                 text="Аппарат лазерной сварки"
               />
               <CarouselEquipChild
-                photo="\img\EquipmentSection\ASSIMATCH.svg"
+                photo="\img\OurEquipment\LazerSheet.jpeg"
                 text="Гибочный гидравлический пресс с ЧПУ"
               />
               <CarouselEquipChild
-                photo="\img\EquipmentSection\KDM.svg"
+                photo="\img\OurEquipment\Mashine.jpeg"
                 text="Аппарат лазерной сварки"
               />
+
               <CarouselEquipChild
-                photo="\img\EquipmentSection\SENFENG.svg"
+                photo="\img\OurEquipment\Rollers.jpeg"
+                text="Установка лазерной резки металла"
+              />
+              <CarouselEquipChild
+                photo="\img\OurEquipment\SheetPress.jpeg"
+                text="Установка лазерной резки металла"
+              />
+              <CarouselEquipChild
+                photo="\img\OurEquipment\Presses.jpeg"
                 text="Установка лазерной резки металла"
               />
             </CarouselContent>
