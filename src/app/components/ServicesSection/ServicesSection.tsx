@@ -20,8 +20,8 @@ export default function ServicesSection() {
               title="Лазерная резка"
               subtitle="Лазерная резка — технология резки и раскроя материалов, использующая лазер высокой мощности и обычно применяемая на промышленных производственных линиях. Сфокусированный лазерный луч, обычно управляемый компьютером, обеспечивает высокую концентрацию энергии и позволяет разрезать практически любые материалы независимо от их теплофизических свойств. В процессе резки, под воздействием лазерного луча материал разрезаемого участка плавится, возгорается, испаряется или выдувается струей газа. Легкодеформируемых и нежестких заготовок и деталей, можно осуществлять с высокой степенью точности."
               mainPhoto="\img\Modal\modalLazer.jpg"
-              photo1="\img\EquipmentSection\SENFENG.svg"
-              photo2="\img\EquipmentSection\SENFENG.svg"
+              photo1="\img\OurEquipment\GigaPress.jpeg"
+              photo2="\img\OurEquipment\Mashine.jpeg"
               photo3="\img\EquipmentSection\SENFENG.svg"
               photo4="\img\EquipmentSection\SENFENG.svg"
             />
