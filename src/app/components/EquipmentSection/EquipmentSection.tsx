@@ -23,7 +23,7 @@ export default function ExampleSection() {
             className="w-[250px] bigPhone:w-[300px] tablet:w-full"
             plugins={[
               Autoplay({
-                delay: 7000,
+                delay: 10000,
               }),
             ]}
           >
