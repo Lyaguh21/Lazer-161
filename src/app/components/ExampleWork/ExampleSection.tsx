@@ -26,7 +26,7 @@ export default function ExampleSection() {
               }),
             ]}
           >
-            <CarouselContent className="gap-[4px]">
+            <CarouselContent className="gap-[4px] ">
               <CarouselChild photo="\img\ExampleSection\firstExample.svg" />
               <CarouselChild photo="\img\ExampleSection\secondExample.svg" />
               <CarouselChild photo="\img\ExampleSection\thirdExample.svg" />
